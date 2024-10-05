@@ -1,17 +1,11 @@
-import CatCaed from './CatCaed';
+
 import './App.css';
+import Counter from './Counter';
 
 function App() {
   return (
     <div className='app'>
-      <button id='btn'>
-        <span>
-          submit
-          
-        </span>
-      </button>
-      <CatCaed/>
-      <CatCaed/>
+     <Counter/>
     </div>
   );
 }
